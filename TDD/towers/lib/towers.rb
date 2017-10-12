@@ -1,11 +1,37 @@
-class Array
+class Tower
 
-  def my_uniq
-    uniq_arr = []
-    self.each do |e|
-      uniq_arr << e if !uniq_arr.include?(e)
-    end
-    uniq_arr
+  attr_reader
+
+  def initialize
+    @towers = Array.new(3){[]}
+    @towers[0] = [3,2,1]
+  end
+
+  def 
+
+  end
+
+
+  def valid_move?
+
+  end
+
+
+  def play
+
+  end
+
+  def move
+
+  end
+
+  def won?
+
+  end
+
+
+  def render
+
   end
 
 end

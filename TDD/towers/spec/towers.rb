@@ -1,17 +1,21 @@
 require "rspec"
-require ""
+require "towers"
 
 describe "#" do
 
-  it "Checks if array is empty" do
-    expect([].my_uniq).to eq([])
+  it "Starting tower has disc to select" do
+
   end
 
-  it "Outputs with out duplicats" do
-    expect([1, 2, 1, 3, 3].my_uniq).to eq([1, 2, 1, 3, 3].uniq)
+  it "Starting tower disc is smaller than target tower's disc" do
+
   end
 
-  it "Outputs array is in order they appeared" do
+  it "Big disc can't be on top of small disc" do
+
+  end
+
+  it "Wins if Tower other than Tower 1 has correct pattern." do
     expect([1, 3, 2, 1, 3, 3].my_uniq).to eq([1, 3, 2, 1, 3, 3].uniq)
   end
 
